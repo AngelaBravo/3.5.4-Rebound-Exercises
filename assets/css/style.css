@@ -1,0 +1,98 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@media (max-width:800px){
+
+nav{
+    background-color: rgb(58, 185, 54);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.nav__perfil{
+    display: flex; 
+    flex-direction: column;
+    
+    p{
+        text-align: center;
+    }
+}
+
+.nav__img{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+}
+
+.contactos{
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    flex-direction:row;
+    border-bottom: 0.25rem solid rgb(58, 185, 54);;
+}
+
+.contacto{
+    background-color:rgb(184, 175, 192);
+    width: 20vw;
+    text-align: center;
+}
+
+.contacto-public{
+    background-color: rgb(184, 175, 192);
+    width: 80vw;
+    border: 0.45rem solid rgb(184, 175, 192);
+    box-sizing: border-box;
+}
+
+.contacto-public__fecha{
+  /*  background-color: bisque;*/
+    height: 5vh;
+    font-size: 0.7rem;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    
+}
+.contacto-public__foto{
+ /*    background-color: cadetblue; */
+    height: 40vh;
+    overflow-x: auto;
+    border-radius:5% ;
+}
+.contacto-public__text{
+ /*   background-color: yellow; */
+    height: 8vh;
+    font-size: 0.9rem;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+}
+.contacto-public__reacciones{
+ /*   background-color: deepskyblue; */
+    height: 5vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+
+img{
+    width: 80vw;
+    height: 40vh;
+}
+
+.contacto__img{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    margin-top: 0.75rem;
+   
+}
+
+}
